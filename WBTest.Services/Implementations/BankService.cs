@@ -28,8 +28,8 @@ namespace WBTest.Services.Implementations
             HttpResponseMessage httpresponse = await httpClient.GetAsync($"{config["BanksApi"]}/Shared/GetAllBanks");
 
             
-            var jsonString = await httpresponse.Content.ReadAsStringAsync();
-            var getAllBankDto = JsonSerializer.Deserialize<GetAllBankDto>(jsonString);
+            string jsonString = await httpresponse.Content.ReadAsStringAsync();
+            GetAllBankDto getAllBankDto = JsonSerializer.Deserialize<GetAllBankDto>(jsonString);
             return getAllBankDto;
             
         }

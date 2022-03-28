@@ -27,23 +27,28 @@ namespace WBTest.Services.Implementations
 
         public Result<List<CustomerDto>> GetAllCustomers()
         {
-            var customers =  context.Customers.Where(c => c.Onboarded == true).ToList();
+            List<Customer> customers =  context.Customers.Where(c => c.Onboarded == true).ToList();
 
-            var customerDtos = mapper.Map<List<CustomerDto>>(customers);
+            List<CustomerDto> customerDtos = mapper.Map<List<CustomerDto>>(customers);
 
             return Result<List<CustomerDto>>.Success(customerDtos);
         }
         public async Task<Result<string>> OnBoard(CreateCustomerDto createCustomerDto)
         {
-            var customer = mapper.Map<Customer>(createCustomerDto);
 
-            //var otp = GenerateOtp();
+            Customer existingCustomer = context.Customers.FirstOrDefault(c => c.Email == createCustomerDto.Email);
 
+            if (existingCustomer != null) return Result<string>.Failure("This email has been taken");
+
+            Customer customer = mapper.Map<Customer>(createCustomerDto);
+
+            //attaches an otp to the customer
             customer.Otp = GenerateOtp();
-
+            
+            //set the date the otp was created
             customer.OtpDate = DateTime.Now.ToString();
 
-            //send Otp to email
+            //send Otp to customer email or as sms to customer phone number
 
             IdentityResult result = await userManager.CreateAsync(customer, createCustomerDto.Password);
 
@@ -58,14 +63,17 @@ namespace WBTest.Services.Implementations
 
         public async Task<Result<string>> CompleteOnBoarding(string otp,string customerId)
         {
-            var customer = await userManager.FindByIdAsync(customerId);
+            Customer customer = await userManager.FindByIdAsync(customerId);
 
+            //checks if the otp is correct
             if (otp != customer.Otp) return Result<string>.Failure("Incorrect code");
 
             var dateDifference = Convert.ToDateTime(customer.OtpDate) - DateTime.Now;
 
+            //ensures otp has not expired(otp lifespan is 15 minutes)
             if (dateDifference.Minutes > 15) return Result<string>.Failure("Code has expired");
 
+            //customer is completely onboarded.
             customer.Onboarded = true;
 
             await userManager.UpdateAsync(customer);
@@ -74,6 +82,7 @@ namespace WBTest.Services.Implementations
         }
 
         
+        //Generate random six figure code
         private string GenerateOtp()
         {
             char[] charArr = "0123456789".ToCharArray();
