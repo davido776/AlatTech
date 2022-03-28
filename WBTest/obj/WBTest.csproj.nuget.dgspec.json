@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest\\WBTest.csproj": {}
+    "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest\\WBTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Data\\WBTest.Data.csproj": {
+    "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Data\\WBTest.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Data\\WBTest.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Data\\WBTest.Data.csproj",
         "projectName": "WBTest.Data",
-        "projectPath": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Data\\WBTest.Data.csproj",
+        "projectPath": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Data\\WBTest.Data.csproj",
         "packagesPath": "C:\\Users\\Davido\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Data\\obj\\",
+        "outputPath": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Models\\WBTest.Models.csproj": {
-                "projectPath": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Models\\WBTest.Models.csproj"
+              "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Models\\WBTest.Models.csproj": {
+                "projectPath": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Models\\WBTest.Models.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Models\\WBTest.Models.csproj": {
+    "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Models\\WBTest.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Models\\WBTest.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Models\\WBTest.Models.csproj",
         "projectName": "WBTest.Models",
-        "projectPath": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Models\\WBTest.Models.csproj",
+        "projectPath": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Models\\WBTest.Models.csproj",
         "packagesPath": "C:\\Users\\Davido\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Models\\obj\\",
+        "outputPath": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -146,14 +146,14 @@
         }
       }
     },
-    "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Services\\WBTest.Services.csproj": {
+    "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Services\\WBTest.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Services\\WBTest.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Services\\WBTest.Services.csproj",
         "projectName": "WBTest.Services",
-        "projectPath": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Services\\WBTest.Services.csproj",
+        "projectPath": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Services\\WBTest.Services.csproj",
         "packagesPath": "C:\\Users\\Davido\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Services\\obj\\",
+        "outputPath": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -174,11 +174,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Data\\WBTest.Data.csproj": {
-                "projectPath": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Data\\WBTest.Data.csproj"
+              "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Data\\WBTest.Data.csproj": {
+                "projectPath": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Data\\WBTest.Data.csproj"
               },
-              "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Models\\WBTest.Models.csproj": {
-                "projectPath": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Models\\WBTest.Models.csproj"
+              "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Models\\WBTest.Models.csproj": {
+                "projectPath": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Models\\WBTest.Models.csproj"
               }
             }
           }
@@ -217,14 +217,14 @@
         }
       }
     },
-    "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest\\WBTest.csproj": {
+    "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest\\WBTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest\\WBTest.csproj",
+        "projectUniqueName": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest\\WBTest.csproj",
         "projectName": "WBTest",
-        "projectPath": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest\\WBTest.csproj",
+        "projectPath": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest\\WBTest.csproj",
         "packagesPath": "C:\\Users\\Davido\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest\\obj\\",
+        "outputPath": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -245,11 +245,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Data\\WBTest.Data.csproj": {
-                "projectPath": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Data\\WBTest.Data.csproj"
+              "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Data\\WBTest.Data.csproj": {
+                "projectPath": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Data\\WBTest.Data.csproj"
               },
-              "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Services\\WBTest.Services.csproj": {
-                "projectPath": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Services\\WBTest.Services.csproj"
+              "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Services\\WBTest.Services.csproj": {
+                "projectPath": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Services\\WBTest.Services.csproj"
               }
             }
           }

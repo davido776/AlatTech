@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6xv5D7RUSOFsQ2L36C/rTfz+Px/Hf0SNY4polaFkOp3fkBV/0pfsDDhJMWtXyPwtOCnuVcnoPEZ33/wYahyyJQ==",
+  "dgSpecHash": "zlyqhSovk/fXNN+Np8CtrZMKK18YF86+o9mAmy0iuKymnZ9XHbhFDSDyzN4UuTIHYY4hpgDmlenM0btGLlh48Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Services\\WBTest.Services.csproj",
+  "projectFilePath": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Services\\WBTest.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Davido\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Davido\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

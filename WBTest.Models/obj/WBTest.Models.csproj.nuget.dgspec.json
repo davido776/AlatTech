@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Models\\WBTest.Models.csproj": {}
+    "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Models\\WBTest.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Models\\WBTest.Models.csproj": {
+    "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Models\\WBTest.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Models\\WBTest.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Models\\WBTest.Models.csproj",
         "projectName": "WBTest.Models",
-        "projectPath": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Models\\WBTest.Models.csproj",
+        "projectPath": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Models\\WBTest.Models.csproj",
         "packagesPath": "C:\\Users\\Davido\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Davido\\source\\repos\\WBTest\\WBTest.Models\\obj\\",
+        "outputPath": "C:\\Users\\Davido\\PDP\\AlatTech\\WBTest.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
