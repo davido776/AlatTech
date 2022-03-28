@@ -12,6 +12,6 @@ namespace WBTest.Services.Abstractions
         Result<List<CustomerDto>> GetAllCustomers();
         Task<Result<string>> OnBoard(CreateCustomerDto createCustomerDto);
 
-        Task<Result<string>> CompleteOnBoarding(string otp, string customerId);
+        Task<Result<string>> CompleteOnBoarding(CompleteOnboardingDto model);
     }
 }

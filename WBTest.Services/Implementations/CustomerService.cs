@@ -61,12 +61,12 @@ namespace WBTest.Services.Implementations
             //throw new NotImplementedException();
         }
 
-        public async Task<Result<string>> CompleteOnBoarding(string otp,string customerId)
+        public async Task<Result<string>> CompleteOnBoarding(CompleteOnboardingDto model)
         {
-            Customer customer = await userManager.FindByIdAsync(customerId);
+            Customer customer = await userManager.FindByIdAsync(model.CustomerId);
 
             //checks if the otp is correct
-            if (otp != customer.Otp) return Result<string>.Failure("Incorrect code");
+            if (model.Otp != customer.Otp) return Result<string>.Failure("Incorrect code");
 
             var dateDifference = Convert.ToDateTime(customer.OtpDate) - DateTime.Now;
 

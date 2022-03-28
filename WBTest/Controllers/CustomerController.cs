@@ -3,14 +3,37 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WBTest.Services.Abstractions;
+using WBTest.Services.Entities;
 
 namespace WBTest.Controllers
 {
-    public class CustomerController : Controller
+
+    [ApiController]
+    [Route("api/[Controller]")]
+    public class CustomerController : ControllerBase
     {
-        public IActionResult Index()
+        private readonly ICustomerService customerService;
+        public CustomerController(ICustomerService customerService)
         {
-            return View();
+            this.customerService = customerService;
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> CreateCustomer(CreateCustomerDto model)
+        {
+            if (model == null) return BadRequest("Invalid Credentials");
+
+            return Ok(await customerService.OnBoard(model));
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> CompleteOnBoarding(CompleteOnboardingDto model)
+        {
+            if (model == null) return BadRequest("Invalid Credentials");
+
+            return Ok(await customerService.CompleteOnBoarding(model));
         }
     }
 }

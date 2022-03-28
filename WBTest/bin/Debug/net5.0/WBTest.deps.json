@@ -1481,6 +1481,7 @@
       "WBTest.Services/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "WBTest.Data": "1.0.0",
           "WBTest.Models": "1.0.0"
         },
         "runtime": {

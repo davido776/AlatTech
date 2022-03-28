@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace WBTest.Services.Entities
 {
-    class CompleteOnboardingDto
+    public class CompleteOnboardingDto
     {
+        public string Otp { get; set; }
+        public string CustomerId { get; set; }
     }
 }

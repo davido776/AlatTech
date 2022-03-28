@@ -10,3 +10,15 @@ C:\Users\Davido\source\repos\WBTest\WBTest.Models\obj\Debug\net5.0\WBTest.Models
 C:\Users\Davido\source\repos\WBTest\WBTest.Models\obj\Debug\net5.0\WBTest.Models.dll
 C:\Users\Davido\source\repos\WBTest\WBTest.Models\obj\Debug\net5.0\ref\WBTest.Models.dll
 C:\Users\Davido\source\repos\WBTest\WBTest.Models\obj\Debug\net5.0\WBTest.Models.pdb
+C:\Users\Davido\PDP\AlatTech\WBTest.Models\bin\Debug\net5.0\WBTest.Models.deps.json
+C:\Users\Davido\PDP\AlatTech\WBTest.Models\bin\Debug\net5.0\WBTest.Models.dll
+C:\Users\Davido\PDP\AlatTech\WBTest.Models\bin\Debug\net5.0\ref\WBTest.Models.dll
+C:\Users\Davido\PDP\AlatTech\WBTest.Models\bin\Debug\net5.0\WBTest.Models.pdb
+C:\Users\Davido\PDP\AlatTech\WBTest.Models\obj\Debug\net5.0\WBTest.Models.csproj.AssemblyReference.cache
+C:\Users\Davido\PDP\AlatTech\WBTest.Models\obj\Debug\net5.0\WBTest.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Davido\PDP\AlatTech\WBTest.Models\obj\Debug\net5.0\WBTest.Models.AssemblyInfoInputs.cache
+C:\Users\Davido\PDP\AlatTech\WBTest.Models\obj\Debug\net5.0\WBTest.Models.AssemblyInfo.cs
+C:\Users\Davido\PDP\AlatTech\WBTest.Models\obj\Debug\net5.0\WBTest.Models.csproj.CoreCompileInputs.cache
+C:\Users\Davido\PDP\AlatTech\WBTest.Models\obj\Debug\net5.0\WBTest.Models.dll
+C:\Users\Davido\PDP\AlatTech\WBTest.Models\obj\Debug\net5.0\ref\WBTest.Models.dll
+C:\Users\Davido\PDP\AlatTech\WBTest.Models\obj\Debug\net5.0\WBTest.Models.pdb

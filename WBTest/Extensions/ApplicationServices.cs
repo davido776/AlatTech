@@ -19,7 +19,7 @@ namespace WBTest.Extensions
         {
             services.AddScoped<ICustomerService, CustomerService>();
 
-            services.AddScoped<IBankService, BankService>();
+            services.AddHttpClient<IBankService, BankService>();
 
             services.AddAutoMapper(typeof(CustomerProfile));
 
