@@ -1,0 +1,15 @@
+C:\Users\Davido\source\repos\WBTest\WBTest.Services\bin\Debug\net5.0\WBTest.Services.deps.json
+C:\Users\Davido\source\repos\WBTest\WBTest.Services\bin\Debug\net5.0\WBTest.Services.dll
+C:\Users\Davido\source\repos\WBTest\WBTest.Services\bin\Debug\net5.0\ref\WBTest.Services.dll
+C:\Users\Davido\source\repos\WBTest\WBTest.Services\bin\Debug\net5.0\WBTest.Services.pdb
+C:\Users\Davido\source\repos\WBTest\WBTest.Services\bin\Debug\net5.0\WBTest.Models.dll
+C:\Users\Davido\source\repos\WBTest\WBTest.Services\bin\Debug\net5.0\WBTest.Models.pdb
+C:\Users\Davido\source\repos\WBTest\WBTest.Services\obj\Debug\net5.0\WBTest.Services.csproj.AssemblyReference.cache
+C:\Users\Davido\source\repos\WBTest\WBTest.Services\obj\Debug\net5.0\WBTest.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Davido\source\repos\WBTest\WBTest.Services\obj\Debug\net5.0\WBTest.Services.AssemblyInfoInputs.cache
+C:\Users\Davido\source\repos\WBTest\WBTest.Services\obj\Debug\net5.0\WBTest.Services.AssemblyInfo.cs
+C:\Users\Davido\source\repos\WBTest\WBTest.Services\obj\Debug\net5.0\WBTest.Services.csproj.CoreCompileInputs.cache
+C:\Users\Davido\source\repos\WBTest\WBTest.Services\obj\Debug\net5.0\WBTest.Services.csproj.CopyComplete
+C:\Users\Davido\source\repos\WBTest\WBTest.Services\obj\Debug\net5.0\WBTest.Services.dll
+C:\Users\Davido\source\repos\WBTest\WBTest.Services\obj\Debug\net5.0\ref\WBTest.Services.dll
+C:\Users\Davido\source\repos\WBTest\WBTest.Services\obj\Debug\net5.0\WBTest.Services.pdb
